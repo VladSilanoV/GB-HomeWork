@@ -24,7 +24,7 @@
   padding-right: 9px;
 }
 
-.headbar .menu .rround {
+.headbar .menu .counter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,16 +47,19 @@
   top: 20.47%;
 }
 
+.headbar .menu {
+  padding-top: 18px;
+}
+
 .headbar .menu li {
-  margin-top: 18px;
   display: inline-block;
 }
 
-.headbar .lmenu li {
+.headbar .logo {
   margin-right: 41px;
 }
 
-.headbar .rmenu li {
+.headbar .right-headbar li {
   margin-left: 33px;
 }
 
@@ -73,9 +76,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.bccontent .scrolling .model {
   padding-top: 15px;
 }
 
@@ -221,12 +221,12 @@
   background: #F8F8F8;
 }
 
-.looks .look .LookDspn {
+.looks .look .LookDescription {
   margin-left: 17px;
   margin-right: 17px;
 }
 
-.looks .look .LookDspn .Ellery {
+.looks .look .LookDescription .Ellery {
   margin-top: 25px;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -237,7 +237,7 @@
   color: #000000;
 }
 
-.looks .look .LookDspn .DisLook {
+.looks .look .LookDescription .DisLook {
   max-width: 315px;
   color: #5D5D5D;
   font-family: 'Lato', sans-serif;
@@ -247,7 +247,7 @@
   margin-top: 13px;
 }
 
-.looks .look .LookDspn .price {
+.looks .look .LookDescription .price {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -318,7 +318,7 @@
   color: white;
 }
 
-.footer {
+.footer-page {
   background-color: #222224;
   margin-top: 62px;
 }
@@ -544,7 +544,7 @@
   font-style: italic;
 }
 
-.basecontainer {
+.basemant {
   min-height: 79px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -557,25 +557,25 @@
           align-items: center;
 }
 
-.basecontainer .rights {
+.basemant .rights {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #FBFBFB;
 }
 
-.basecontainer .socials {
+.basemant .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.basecontainer li {
+.basemant li {
   list-style: none;
   margin-left: 7.29px;
 }
 
-.basecontainer .sicon {
+.basemant .sicon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,11 +584,11 @@
   background: #FFFFFF;
 }
 
-.basecontainer .sicon img {
+.basemant .sicon img {
   margin: auto;
 }
 
-.basecontainer .sicon:hover {
+.basemant .sicon:hover {
   background: #F16D7F;
 }
 /*# sourceMappingURL=style.css.map */
