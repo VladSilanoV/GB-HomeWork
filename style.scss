@@ -16,7 +16,7 @@ $cw: 1140px;
     background-color: #222222;
 
     .menu {
-
+        padding-top: 18px;
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -35,38 +35,110 @@ $cw: 1140px;
             background-color: #F16D7F;
             justify-content: center;
             align-items: center;
-
             right: 0%;
             top: 20.47%;
         }
-    }
-    .menu{
-    padding-top: 18px
-    }
-    .left-headbar{
-        display: flex;
-        .find-form{
-            margin: auto;
-            display: flex;
-            label{
-                margin: auto;
-        }
-    }
-    .menu li {
-    display: inline-block;
-    }
 
-    .logo {
-        margin-right: 41px;
-    }
-    .find-icon{
-        fill: #E8E8E8;
-    }
-    .find-icon:hover{
-        fill: #F38199;
-    }
-    .right-headbar li {
-        margin-left: 33px;
+        .left-headbar {
+            display: flex;
+
+            .find-form {
+                margin: auto;
+                display: flex;
+               .find-form_input{
+                background-color: transparent;
+                border: none;
+               } 
+               .find-form_input:focus{
+                width: 150px;
+                min-height: 20px;
+                transition: width 1s ease;
+                border: 2px solid white;
+                background-color: white;
+               }   
+                label {
+                    margin: auto;
+                    margin-right: 16px;
+                }
+            }
+            .logo {
+                margin-right: 41px;
+            }
+
+            .find-icon {
+                fill: #E8E8E8;
+            }
+
+            .find-icon:hover {
+                fill: #f3819a;
+            }
+
+            .find-icon:active {
+                height: 22px;
+                width: 22px;
+            }
+           
+        }
+
+        .right-headbar {
+            display: flex;
+            list-style: none;
+
+            .button-menu {
+                margin-top: 4px;
+                border: none;
+                background-color:transparent;
+                    stroke:#E8E8E8 ;
+                    stroke-width: 2px;
+                    :hover{
+                        stroke:#f3819a ;
+                }
+                :active{
+                    stroke-width: 1px;
+                }
+            }
+            .profile-button{
+                display: flex;
+                background-color: transparent;
+                border: none;
+                height: 29px;
+                width: 29px;
+                              
+                .profile-svg{
+                    margin: auto;
+                    fill: #E8E8E8;
+                } 
+                :hover{
+                    fill:#f3819a;
+                }
+                :active{
+                    height: 27px;
+                    width: 27px;
+                }   
+            }
+            .busket-button{
+                display: flex;
+                background-color: transparent;
+                border: none;
+                height: 29px;
+                width: 29px;
+                              
+                .profile-svg{
+                    margin: auto;
+                    fill: #E8E8E8;
+                } 
+                :hover{
+                    fill:#f3819a;
+                }
+                :active{
+                    height: 27px;
+                    width: 27px;
+                }   
+            }
+            li {
+                margin-left: 33px;
+            }
+        }
     }
 }
 
