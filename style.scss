@@ -43,6 +43,15 @@ $cw: 1140px;
     .menu{
     padding-top: 18px
     }
+    .left-headbar{
+        display: flex;
+        .find-form{
+            margin: auto;
+            display: flex;
+            label{
+                margin: auto;
+        }
+    }
     .menu li {
     display: inline-block;
     }
@@ -50,7 +59,12 @@ $cw: 1140px;
     .logo {
         margin-right: 41px;
     }
-
+    .find-icon{
+        fill: #E8E8E8;
+    }
+    .find-icon:hover{
+        fill: #F38199;
+    }
     .right-headbar li {
         margin-left: 33px;
     }

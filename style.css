@@ -51,12 +51,42 @@
   padding-top: 18px;
 }
 
+.headbar .left-headbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headbar .left-headbar .find-form {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headbar .left-headbar .find-form label {
+  margin: auto;
+}
+
+.headbar .left-headbar .find-form label .find-icon {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
 .headbar .menu li {
   display: inline-block;
 }
 
 .headbar .logo {
   margin-right: 41px;
+}
+
+.headbar .find-icon {
+  fill: #E8E8E8;
+}
+
+.headbar .find-icon:hover {
+  fill: #F38199;
 }
 
 .headbar .right-headbar li {
