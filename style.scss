@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 $cw: 1140px;
 
 * {
@@ -16,13 +17,13 @@ $cw: 1140px;
     background-color: #222222;
 
     .menu {
-
+        padding-top: 18px;
         position: relative;
         display: flex;
         justify-content: space-between;
         padding-right: 9px;
 
-        .rround {
+        .counter {
             display: flex;
             font-family: 'Lato', sans-serif;
             font-size: 12px;
@@ -35,23 +36,125 @@ $cw: 1140px;
             background-color: #F16D7F;
             justify-content: center;
             align-items: center;
-
             right: 0%;
             top: 20.47%;
         }
-    }
 
-    .menu li {
-        margin-top: 18px;
-        display: inline-block;
-    }
+        .left-headbar {
+            display: flex;
 
-    .lmenu li {
-        margin-right: 41px;
-    }
+            .find-form {
+                margin: auto;
+                display: flex;
 
-    .rmenu li {
-        margin-left: 33px;
+                .find-form_input {
+                    background-color: transparent;
+                    border: none;
+                }
+
+                .find-form_input:focus {
+                    width: 150px;
+                    min-height: 20px;
+                    transition: width 1s ease;
+                    border: 2px solid white;
+                    background-color: white;
+                }
+
+                label {
+                    margin: auto;
+                    margin-right: 16px;
+                }
+            }
+
+            .logo {
+                margin-right: 41px;
+            }
+
+            .find-icon {
+                fill: #E8E8E8;
+
+            }
+
+            .find-icon:hover {
+                fill: #f3819a;
+            }
+
+            .find-icon:active {
+                height: 22px;
+                width: 22px;
+            }
+
+        }
+
+        .right-headbar {
+            display: flex;
+            list-style: none;
+
+            .button-menu {
+                margin-top: 4px;
+                border: none;
+                background-color: transparent;
+                stroke: #E8E8E8;
+                stroke-width: 2px;
+
+                :hover {
+                    stroke: #f3819a;
+                }
+
+                :active {
+                    stroke-width: 1px;
+                }
+            }
+
+            .profile-button {
+                display: flex;
+                background-color: transparent;
+                border: none;
+                height: 29px;
+                width: 29px;
+
+                .profile-svg {
+                    margin: auto;
+                    fill: #E8E8E8;
+                }
+
+                :hover {
+                    fill: #f3819a;
+                }
+
+                :active {
+                    height: 27px;
+                    width: 27px;
+                }
+            }
+
+            .basket-button {
+                display: flex;
+                background-color: transparent;
+                border: none;
+                height: 29px;
+                width: 32px;
+
+                .basket-svg {
+                    margin: auto;
+                    fill: #E8E8E8;
+                }
+
+                :hover {
+                    fill: #f3819a;
+                }
+
+                :active {
+                    height: 27px;
+                    width: 30px;
+                }
+
+            }
+
+            li {
+                margin-left: 33px;
+            }
+        }
     }
 }
 
@@ -63,11 +166,7 @@ $cw: 1140px;
     .scrolling {
         display: flex;
         justify-content: space-between;
-
-        .model {
-            padding-top: 15px;
-
-        }
+        padding-top: 15px;
 
         .redline {
             width: 12px;
@@ -194,6 +293,7 @@ $cw: 1140px;
 }
 
 .looks {
+    list-style: none;
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
@@ -203,9 +303,10 @@ $cw: 1140px;
         margin-bottom: 30px;
         background: #F8F8F8;
 
-        .LookDspn {
+        .LookDescription {
             margin-left: 17px;
             margin-right: 17px;
+            padding-bottom: 20px;
 
             .Ellery {
                 margin-top: 25px;
@@ -220,10 +321,11 @@ $cw: 1140px;
 
             .DisLook {
                 max-width: 315px;
-                color: #5D5D5D;
-                font-family: 'Lato', sans-serif;
+                font-family: Lato;
                 font-weight: 300;
                 font-size: 14px;
+                line-height: 17px;
+                color: #5D5D5D;
                 line-height: 17px;
                 margin-top: 13px;
             }
@@ -234,7 +336,6 @@ $cw: 1140px;
                 line-height: 19px;
                 color: #F16D7F;
                 margin-top: 18px;
-                margin-bottom: 20px;
             }
 
         }
@@ -254,11 +355,11 @@ $cw: 1140px;
             display: none;
 
             .cart {
+                width: 138px;
+                height: 43px;
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
-                width: 136px;
-                height: 41px;
                 margin: auto;
                 text-align: center;
                 background: none;
@@ -267,6 +368,19 @@ $cw: 1140px;
                 font-size: 14px;
                 line-height: 17px;
                 color: white;
+                fill: #E8E8E8;
+            }
+
+            .cart:hover {
+                background: #E8E8E8;
+                color: rgba(58, 56, 56, 0.86);
+                ;
+                fill: rgba(58, 56, 56, 0.86);
+            }
+
+            .cart:active {
+                width: 134px;
+                height: 39px;
             }
         }
 
@@ -285,7 +399,8 @@ $cw: 1140px;
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
-    padding: 14.5px 38.5px 13.5px 38.5px;
+    width: 211px;
+    height: 47px;
     margin: 33px auto;
     background: 0;
 }
@@ -295,7 +410,15 @@ $cw: 1140px;
     color: white;
 }
 
-.footer {
+.brows:active {
+    margin-top: 35px;
+    width: 207px;
+    height: 43px;
+    margin-bottom: 35px;
+
+}
+
+.footer-page {
     background-color: #222224;
     margin-top: 62px;
 }
@@ -461,7 +584,7 @@ $cw: 1140px;
     }
 }
 
-.basecontainer {
+.basemant {
     min-height: 79px;
     display: flex;
     justify-content: space-between;
@@ -496,5 +619,53 @@ $cw: 1140px;
 
     .sicon:hover {
         background: #F16D7F;
+    }
+}
+
+//*************каталог************
+
+.head-bread-crambs {
+    min-height: 148px;
+    background: #F8F3F4;
+
+    .head-bread-crambs_container {
+        min-height: 148px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .new-arrivals {
+            text-transform: uppercase;
+            color: #F16D7F;
+            font-family: Lato;
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .bread-crambs_ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-family: Lato;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #636363;
+                }
+            }
+
+            li:not(:last-child) {
+
+                ::after {
+                    content: "/";
+                }
+
+            }
+        }
     }
 }
