@@ -614,15 +614,18 @@ $cw: 1140px;
         height: 32px;
         width: 32px;
         background: #FFFFFF;
+        
 
-        img {
+        svg {
             margin: auto;
         }
     }
 
     .sicon:hover {
         background: #F16D7F;
+        fill: white;
     }
+    
 }
 
 //*************каталог************

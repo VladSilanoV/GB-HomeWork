@@ -718,12 +718,13 @@
   background: #FFFFFF;
 }
 
-.basemant .sicon img {
+.basemant .sicon svg {
   margin: auto;
 }
 
 .basemant .sicon:hover {
   background: #F16D7F;
+  fill: white;
 }
 
 .head-bread-crambs {
