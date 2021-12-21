@@ -105,6 +105,10 @@
   list-style: none;
 }
 
+.headbar .menu .right-headbar .class-checkbox-menu {
+  display: none;
+}
+
 .headbar .menu .right-headbar .button-menu {
   margin-top: 4px;
   border: none;
