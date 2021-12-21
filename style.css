@@ -370,11 +370,11 @@
   display: flex;
 }
 
-.looks-head {
+.goods-header {
   margin-top: 96px;
 }
 
-.looks-head .Fetered {
+.goods-header .fetered {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   line-height: 36px;
@@ -383,7 +383,7 @@
   margin-bottom: 6px;
 }
 
-.looks-head p {
+.goods-header p {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 17px;
@@ -391,7 +391,7 @@
   text-align: center;
 }
 
-.looks {
+.goods-list {
   list-style: none;
   margin-top: 48px;
   display: -webkit-box;
@@ -404,18 +404,18 @@
           justify-content: space-between;
 }
 
-.looks .look {
+.goods-list .goods-item {
   margin-bottom: 30px;
   background: #F8F8F8;
 }
 
-.looks .look .LookDescription {
+.goods-list .goods-item .LookDescription {
   margin-left: 17px;
   margin-right: 17px;
   padding-bottom: 20px;
 }
 
-.looks .look .LookDescription .Ellery {
+.goods-list .goods-item .LookDescription .Ellery {
   margin-top: 25px;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -426,7 +426,7 @@
   color: #000000;
 }
 
-.looks .look .LookDescription .DisLook {
+.goods-list .goods-item .LookDescription .DisLook {
   max-width: 315px;
   font-family: Lato;
   font-weight: 300;
@@ -437,7 +437,7 @@
   margin-top: 13px;
 }
 
-.looks .look .LookDescription .price {
+.goods-list .goods-item .LookDescription .price {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -445,12 +445,12 @@
   margin-top: 18px;
 }
 
-.looks .look .LookImg {
+.goods-list .goods-item .look-img {
   height: 420px;
   position: relative;
 }
 
-.looks .look .img-wrap {
+.goods-list .goods-item .img-wrap {
   border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,7 +464,7 @@
   display: none;
 }
 
-.looks .look .img-wrap .cart {
+.goods-list .goods-item .img-wrap .cart {
   width: 138px;
   height: 43px;
   display: -webkit-box;
@@ -487,18 +487,18 @@
   fill: #E8E8E8;
 }
 
-.looks .look .img-wrap .cart:hover {
+.goods-list .goods-item .img-wrap .cart:hover {
   background: #E8E8E8;
   color: rgba(58, 56, 56, 0.86);
   fill: rgba(58, 56, 56, 0.86);
 }
 
-.looks .look .img-wrap .cart:active {
+.goods-list .goods-item .img-wrap .cart:active {
   width: 134px;
   height: 39px;
 }
 
-.looks .look .LookImg:hover .img-wrap {
+.goods-list .goods-item .look-img:hover .img-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

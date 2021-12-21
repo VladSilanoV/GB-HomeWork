@@ -345,10 +345,10 @@ display: inherit;
     display: flex;
 }
 
-.looks-head {
+.goods-header {
     margin-top: 96px;
 
-    .Fetered {
+    .fetered {
         font-family: 'Lato', sans-serif;
         font-size: 30px;
         line-height: 36px;
@@ -366,14 +366,14 @@ display: inherit;
     }
 }
 
-.looks {
+.goods-list {
     list-style: none;
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    .look {
+    .goods-item {
         margin-bottom: 30px;
         background: #F8F8F8;
 
@@ -414,7 +414,7 @@ display: inherit;
 
         }
 
-        .LookImg {
+        .look-img {
             height: 420px;
             position: relative;
         }
@@ -461,7 +461,7 @@ display: inherit;
             }
         }
 
-        .LookImg:hover .img-wrap {
+        .look-img:hover .img-wrap {
             display: flex;
         }
     }
