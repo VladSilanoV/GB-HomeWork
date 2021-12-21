@@ -450,7 +450,7 @@
   position: relative;
 }
 
-.goods-list .goods-item .img-wrap {
+.goods-list .goods-item .goods-image-hover {
   border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,7 +464,7 @@
   display: none;
 }
 
-.goods-list .goods-item .img-wrap .cart {
+.goods-list .goods-item .goods-image-hover .cart {
   width: 138px;
   height: 43px;
   display: -webkit-box;
@@ -487,18 +487,18 @@
   fill: #E8E8E8;
 }
 
-.goods-list .goods-item .img-wrap .cart:hover {
+.goods-list .goods-item .goods-image-hover .cart:hover {
   background: #E8E8E8;
   color: rgba(58, 56, 56, 0.86);
   fill: rgba(58, 56, 56, 0.86);
 }
 
-.goods-list .goods-item .img-wrap .cart:active {
+.goods-list .goods-item .goods-image-hover .cart:active {
   width: 134px;
   height: 39px;
 }
 
-.goods-list .goods-item .goods-img:hover .img-wrap {
+.goods-list .goods-item .goods-img:hover .goods-image-hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -544,7 +544,7 @@
           justify-content: space-between;
 }
 
-.advantages .adv {
+.advantages .advantage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -557,17 +557,17 @@
           align-items: center;
 }
 
-.advantages .adv .lorry {
+.advantages .advantage .lorry {
   width: 44.99px;
   margin-bottom: 28px;
 }
 
-.advantages .adv .per_cent {
+.advantages .advantage .per-cent {
   width: 39.99px;
   margin-bottom: 19px;
 }
 
-.advantages .adv .crown {
+.advantages .advantage .crown {
   width: 47.02px;
   margin-bottom: 25px;
 }
@@ -592,16 +592,16 @@
   margin-bottom: 104px;
 }
 
-.backservice {
+.background-service {
   background: url(img/back.jpg);
   background-size: cover;
 }
 
-.backservice .backcolorservice {
+.background-service .background-service-light {
   background-color: rgba(244, 244, 244, 0.7);
 }
 
-.backservice .service {
+.background-service .service {
   padding-top: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -612,7 +612,7 @@
   padding-bottom: 156px;
 }
 
-.backservice .service .info {
+.background-service .service .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -622,12 +622,12 @@
           flex-direction: column;
 }
 
-.backservice .service .info .girl {
+.background-service .service .info .girl {
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.backservice .hsb {
+.background-service .hsb {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -638,7 +638,7 @@
   color: #222224;
 }
 
-.backservice .psb {
+.background-service .psb {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -650,13 +650,13 @@
   margin-bottom: 32px;
 }
 
-.backservice .fieldbuton {
+.background-service .fieldbuton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.backservice .email {
+.background-service .email {
   border: 0;
   background: #E1E1E1;
   width: 234px;
@@ -666,7 +666,7 @@
   padding-left: 22px;
 }
 
-.backservice .email::-webkit-input-placeholder {
+.background-service .email::-webkit-input-placeholder {
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -679,7 +679,7 @@
   opacity: 0.67;
 }
 
-.backservice .email:-ms-input-placeholder {
+.background-service .email:-ms-input-placeholder {
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -692,7 +692,7 @@
   opacity: 0.67;
 }
 
-.backservice .email::-ms-input-placeholder {
+.background-service .email::-ms-input-placeholder {
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -705,7 +705,7 @@
   opacity: 0.67;
 }
 
-.backservice .email::placeholder {
+.background-service .email::placeholder {
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -720,7 +720,7 @@
   opacity: 0.67;
 }
 
-.backservice .bsub {
+.background-service .bsub {
   text-transform: capitalize;
   height: 49px;
   width: 84px;
@@ -742,7 +742,7 @@
   color: #FFFFFF;
 }
 
-.backservice .stext {
+.background-service .stext {
   max-width: 360px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -751,7 +751,7 @@
   color: #222224;
 }
 
-.backservice .stext .itp {
+.background-service .stext .itp {
   font-style: italic;
 }
 
