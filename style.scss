@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 $cw: 1140px;
 
 * {
@@ -6,6 +7,9 @@ $cw: 1140px;
     padding: 0;
 }
 
+body {
+    font-family: 'lato', sans-serif;
+}
 
 .container {
     margin: 0 auto;
@@ -21,16 +25,17 @@ $cw: 1140px;
         list-style: none;
         position: absolute;
         right: -232px;
-        top: 124%;
+        top: 129%;
         width: 232px;
         min-height: 764px;
         box-sizing: border-box;
         padding-top: 37px;
-        padding-bottom:37px;
+        padding-bottom: 37px;
         padding-left: 34px;
         padding-right: 34px;
         background: white;
         display: none;
+
         a {
             text-decoration: none;
         }
@@ -83,9 +88,11 @@ $cw: 1140px;
             text-decoration: underline;
         }
     }
-.class-checkbox-menu:checked~.drop-menu{
-display: inherit;
-}
+
+    .class-checkbox-menu:checked~.drop-menu {
+        display: inherit;
+    }
+
     .menu {
         padding-top: 18px;
         position: relative;
@@ -232,27 +239,21 @@ display: inherit;
     }
 }
 
-.model-background {
+.site-poster-background {
     height: 764px;
     background-color: #F1E4E6;
     margin-bottom: 65px;
 
-    .scrolling {
+    .site-poster {
         display: flex;
         justify-content: space-between;
         padding-top: 15px;
-
-        .redline {
-            width: 12px;
-            height: 92px;
-            background-color: #f16d7f;
-            margin-right: 16px;
-        }
 
         .tagline {
             margin-top: 290px;
             display: flex;
             margin-right: 101px;
+            position: relative;
 
             .brand {
                 font-family: 'Lato', sans-serif;
@@ -264,6 +265,7 @@ display: inherit;
             }
 
         }
+
 
         .luxerious {
             text-transform: uppercase;
@@ -281,6 +283,17 @@ display: inherit;
     }
 
 
+}
+
+.wrap-brand::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+    top: 0;
+    left: -28px;
 }
 
 .clothes {
@@ -395,7 +408,7 @@ display: inherit;
 
             .goods-item-description-plot {
                 max-width: 315px;
-                font-family: 'Lato',sans-serif;
+                font-family: 'Lato', sans-serif;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 17px;
@@ -497,12 +510,18 @@ display: inherit;
 
 .footer-page {
     background-color: #222224;
+}
+
+.section-advantages {
     margin-top: 62px;
+    padding-top: 103px;
+    min-height: 238px;
+    background: #222224;
 }
 
 .advantages {
     display: flex;
-    padding-top: 103px;
+
     justify-content: space-between;
 
     .advantage {
@@ -739,7 +758,13 @@ display: inherit;
                     font-size: 14px;
                     line-height: 17px;
                     color: #636363;
+
                 }
+            }
+
+            li a:hover {
+                color: #F16D7F;
+
             }
 
             li:not(:last-child) {
@@ -762,4 +787,191 @@ display: inherit;
 
         }
     }
+}
+
+.filter-trending-size-price {
+    padding-top: 39px;
+    display: flex;
+}
+
+.filter {
+    position: relative;
+    width: 360px;
+    padding: 13px 16px 16px 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+
+
+}
+
+.class-checkbox-filter {
+    display: none;
+}
+
+.class-checkbox-filter:checked~.filter-list {
+    display: block;
+
+}
+
+.button-filter {
+    position: absolute;
+    margin-bottom: 16px;
+    display: flex;
+    width: 100%;
+    top: 16px;
+    left: 16px;
+    z-index: 120;
+}
+
+.button-filter-icon {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.button-filter:hover {
+    p {
+        color: #F16D7F;
+
+    }
+
+    .button-filter-icon {
+        stroke: #F16D7F;
+    }
+}
+
+
+.filter-inscription {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 12px;
+}
+
+.filter-list {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    display: none;
+    list-style: none;
+    position: absolute;
+    background: white;
+    padding-top: 46px;
+    padding-left: 17px;
+}
+
+.filter-list-section {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 11px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 16.8px;
+    border-bottom: 1px solid #EBEBEB;
+    position: relative;
+}
+
+.filter-list-section::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 37px;
+    background-color: #EF5B70;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.filter-list-section button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    color: #EF5B70;
+    text-decoration: none;
+}
+
+.filter-list-section-item {
+    margin: 0;
+    list-style: none;
+    margin-bottom: 11px;
+    line-height: 16.8px;
+    font-size: 14px;
+    padding-left: 22px;
+}
+
+.filter-list-section-item a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: capitalize;
+
+}
+
+.filter-list-section-item a:hover {
+    color: #EF5B70;
+}
+
+.trending-size-price {
+    padding-top: 12px;
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.trennding-size-price-checkbox {
+    display: none;
+}
+
+.trending-size-price li {
+    display: flex;
+    margin-left: 38px;
+    align-items: center;
+
+    p {
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+}
+
+.trending-size-price li p::after {
+    content: url(img/arrow-bottom.svg);
+    margin-left: 10px;
+    height: 50%;
+}
+
+.page-number-list {
+    display: flex;
+    max-width: 243px;
+    height: 43px;
+    list-style: none;
+    border: 1px solid #EBEBEB;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17px;
+    margin: auto;
+    margin-top: 48.5px;
+    margin-bottom: 34px;
+
+
+}
+.page-number{
+    margin-right: 17px;
+}
+.page-number a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    svg{fill:black;}
+
 }
