@@ -572,7 +572,7 @@
   margin-bottom: 25px;
 }
 
-.advantages .add {
+.advantages .advantage-title {
   font-family: 'Lato', sans-serif;
   font-size: 19.96px;
   line-height: 24px;
@@ -581,7 +581,7 @@
   margin-bottom: 16px;
 }
 
-.advantages .adddspn {
+.advantages .advantage-description {
   max-width: 360px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -612,7 +612,7 @@
   padding-bottom: 156px;
 }
 
-.background-service .service .info {
+.background-service .service .service-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -622,12 +622,12 @@
           flex-direction: column;
 }
 
-.background-service .service .info .girl {
+.background-service .service .service-info .girl {
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.background-service .hsb {
+.background-service .subscribe-h3 {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -638,7 +638,7 @@
   color: #222224;
 }
 
-.background-service .psb {
+.background-service .subscribe-p {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -650,7 +650,7 @@
   margin-bottom: 32px;
 }
 
-.background-service .fieldbuton {
+.background-service .email-button-subscribe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +720,7 @@
   opacity: 0.67;
 }
 
-.background-service .bsub {
+.background-service .button-subscribe {
   text-transform: capitalize;
   height: 49px;
   width: 84px;
@@ -742,7 +742,7 @@
   color: #FFFFFF;
 }
 
-.background-service .stext {
+.background-service .service-text {
   max-width: 360px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -751,7 +751,7 @@
   color: #222224;
 }
 
-.background-service .stext .itp {
+.background-service .service-text .italic-service-text {
   font-style: italic;
 }
 

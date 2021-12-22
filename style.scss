@@ -529,7 +529,7 @@ display: inherit;
         align-items: center;
     }
 
-    .add {
+    .advantage-title {
 
         font-family: 'Lato', sans-serif;
         font-size: 19.96px;
@@ -539,7 +539,7 @@ display: inherit;
         margin-bottom: 16px;
     }
 
-    .adddspn {
+    .advantage-description {
         max-width: 360px;
         font-family: 'Lato', sans-serif;
         font-weight: 300;
@@ -565,7 +565,7 @@ display: inherit;
         justify-content: space-between;
         padding-bottom: 156px;
 
-        .info {
+        .service-info {
             display: flex;
             flex-direction: column;
 
@@ -578,7 +578,7 @@ display: inherit;
 
 
 
-    .hsb {
+    .subscribe-h3 {
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-style: normal;
@@ -590,7 +590,7 @@ display: inherit;
 
     }
 
-    .psb {
+    .subscribe-p {
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-size: 18px;
@@ -602,7 +602,7 @@ display: inherit;
         margin-bottom: 32px;
     }
 
-    .fieldbuton {
+    .email-button-subscribe {
         display: flex;
 
     }
@@ -628,7 +628,7 @@ display: inherit;
         opacity: 0.67;
     }
 
-    .bsub {
+    .button-subscribe {
         text-transform: capitalize;
         height: 49px;
         width: 84px;
@@ -647,7 +647,7 @@ display: inherit;
 
     }
 
-    .stext {
+    .service-text {
         max-width: 360px;
         font-family: 'Lato', sans-serif;
         font-size: 20px;
@@ -655,7 +655,7 @@ display: inherit;
         text-align: center;
         color: #222224;
 
-        .itp {
+        .italic-service-text {
             font-style: italic;
         }
     }
