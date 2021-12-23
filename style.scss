@@ -963,15 +963,31 @@ body {
 
 
 }
-.page-number{
+
+.page-number {
     margin-right: 17px;
 }
+
 .page-number a {
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #C4C4C4;
-    svg{fill:black;}
 
+    svg {
+        fill: black;
+    }
+
+}
+
+/*===============product============*/
+.carousel{
+    height: 777px;
+    background: url(img/carousel-background.png);
+}
+.carousel-novigation-button{
+    background: rgba(42, 42, 42, 0.15);
+    height: 47px;
+    width: 47px;
 }
