@@ -963,15 +963,166 @@ body {
 
 
 }
-.page-number{
+
+.page-number {
     margin-right: 17px;
 }
+
 .page-number a {
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #C4C4C4;
-    svg{fill:black;}
 
+    svg {
+        fill: black;
+    }
+
+}
+
+/*===============product============*/
+.carousel {
+    height: 777px;
+    background: url(img/carousel-background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAEAEA;
+    
+   
+}
+
+.carousel-novigation-button {
+    background: rgba(42, 42, 42, 0.15);
+    height: 47px;
+    width: 47px;
+    border: none;
+    font-size: 32px;
+
+    :hover {
+        color: #F16D7F;
+        ;
+    }
+
+}
+
+.carousel-novigation-button:hover {
+    color: #F16D7F;
+}
+
+.women-collection {
+    box-sizing: border-box;
+    min-height: 600px;
+    border: 1px solid #EAEAEA;
+    background-color: white;
+    margin-top: -65px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    h3 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F16D7F;
+        margin-bottom: 27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4D4D4D;
+        margin-bottom: 32px;
+    }
+
+    p {
+        display: flex;
+        max-width: 555px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #5E5E5E;
+        margin-bottom: 32px;
+        flex-direction: column;
+    }
+    .women-collection-price{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #EF5B70;
+        }
+}
+
+.women-collection-h3::after {
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 3.0253806114196777px;
+    width: 63px;
+    background: #EF5B70;
+    align-self: center;
+}
+.women-collection-price::after {
+    margin-top: 1px;
+    content: "";
+    display: block;
+    height: 3.0253806114196777px;
+    width: 641px;
+    background: #EAEAEA;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    align-self: center;
+}
+.women-collection-price{
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #EF5B70;
+}
+.cart-women-collection-button {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    background: none;
+    border: 1px solid #FF6A6A;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF6A6A;
+    fill: #FF6A6A;
+    width: 211px;
+    height: 47px;
+    padding-left: 23px;
+    padding-right: 23px;
+    box-sizing: border-box;
+
+    svg {
+        margin-right: 23px;
+    }
+}
+
+.cart-women-collection-button:hover {
+    background: #F16D7F;
+    color: white;
+    fill: white;
+
+}
+
+.cart-women-collection-button:active {
+    width: 207px;
+    height: 43px;
+margin-top: 2px;
+margin-bottom: 2px;
 }
