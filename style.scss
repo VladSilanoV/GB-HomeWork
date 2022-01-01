@@ -151,10 +151,12 @@ body {
                 fill: #E8E8E8;
 
             }
-.logo img:hover{
-    transform: scale(1.1);
-    transition: transform 0.5s linear;
-}
+
+            .logo img:hover {
+                transform: scale(1.1);
+                transition: transform 0.5s linear;
+            }
+
             .find-icon:hover {
                 fill: #f3819a;
                 transform: scale(1.1);
@@ -175,15 +177,18 @@ body {
             .class-checkbox-menu {
                 display: none;
             }
-            .button-menu-li{
-               padding-top: 4px;
+
+            .button-menu-li {
+                padding-top: 4px;
             }
+
             .button-menu {
                 border: none;
                 background-color: transparent;
                 stroke: #E8E8E8;
                 stroke-width: 2px;
                 fill: transparent;
+
                 :hover {
                     stroke: #f3819a;
                     transform: rotate(180deg);
@@ -225,6 +230,7 @@ body {
                 border: none;
                 height: 29px;
                 width: 32px;
+
                 .basket-svg {
                     margin: auto;
                     fill: #E8E8E8;
@@ -636,6 +642,7 @@ body {
     .email-button-subscribe {
         display: flex;
 
+
     }
 
     .email {
@@ -719,16 +726,18 @@ body {
         height: 32px;
         width: 32px;
         background: #FFFFFF;
-        a{
+
+        a {
             display: flex;
             width: 100%;
             height: 100%;
+
             svg {
                 margin: auto;
             }
         }
 
-       
+
     }
 
     .social-icon a:hover {
@@ -762,6 +771,7 @@ body {
         .bread-crambs-ul {
             list-style: none;
             display: flex;
+
             li {
                 margin-left: 5px;
 
@@ -843,7 +853,7 @@ body {
 }
 
 .button-filter-icon {
-    margin-top:3px;
+    margin-top: 3px;
     stroke: black;
     stroke-width: 2px;
 }
@@ -942,13 +952,15 @@ body {
     list-style: none;
     display: flex;
     box-sizing: border-box;
-    
+
 
 }
-.ungle-bottom{
+
+.ungle-bottom {
     margin-left: 10px;
-    fill:#6F6E6E;
+    fill: #6F6E6E;
 }
+
 .trennding-size-price-checkbox {
     display: none;
 }
@@ -966,16 +978,19 @@ body {
     }
 }
 
-.trending-size-price li :hover{
+.trending-size-price li :hover {
     color: #f16d7f;
-    svg{
-        fill:#f16d7f;
+
+    svg {
+        fill: #f16d7f;
     }
 }
-.size{
+
+.size {
     position: relative;
 }
-.size-variety-form{
+
+.size-variety-form {
     position: absolute;
     top: 27px;
     left: -12px;
@@ -984,43 +999,50 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
-   box-sizing: border-box;
-   padding: 7px 9px 11px 9px;
+    box-sizing: border-box;
+    padding: 7px 9px 11px 9px;
     width: 79px;
     height: 103px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    
-    span{
+
+    span {
         margin-left: 9.5px;
         box-sizing: border-box;
     }
 }
-#size-checkbox:checked~.size-variety-form{
+
+#size-checkbox:checked~.size-variety-form {
     display: flex;
 }
 
-.size-variety-form:last-child{
-margin-bottom: 0;
+.size-variety-form:last-child {
+    margin-bottom: 0;
 }
-.size-variety-checkbox{
+
+.size-variety-checkbox {
     display: none;
 }
-.label-size-checkbox{
+
+.label-size-checkbox {
     display: flex;
 
 }
-.label-size-checkbox::before{
+
+.label-size-checkbox::before {
     display: block;
-    content:"";
+    content: "";
     height: 12px;
     width: 12px;
     border: 1px solid #EBEBEB;
 }
-#xs-checkbox:checked~.label-xs-checkbox::before,#s-checkbox:checked~.label-s-checkbox::before,
+
+#xs-checkbox:checked~.label-xs-checkbox::before,
+#s-checkbox:checked~.label-s-checkbox::before,
 #m-checkbox:checked~.label-m-checkbox::before,
-#l-checkbox:checked~.label-l-checkbox::before{
+#l-checkbox:checked~.label-l-checkbox::before {
     background-image: url(img/checkmark.svg);
 }
+
 .pagination {
     padding-left: 16px;
     padding-right: 16px;
@@ -1038,7 +1060,7 @@ margin-bottom: 0;
 
 }
 
-.page-number{
+.page-number {
     display: block;
     padding: 6px 10px;
     text-decoration: none;
@@ -1046,17 +1068,21 @@ margin-bottom: 0;
     font-size: 16px;
     line-height: 19px;
     color: #C4C4C4;
+
     svg {
         fill: black;
     }
 
 }
-.active-page-number{
+
+.active-page-number {
     color: #EF5B70;
 }
-.page-number:hover{
+
+.page-number:hover {
     background: #e9e9e9;
 }
+
 /*===============product============*/
 .carousel {
     height: 777px;
@@ -1388,7 +1414,8 @@ margin-bottom: 0;
     text-transform: uppercase;
     margin-bottom: 12px;
     text-align: right;
-    .subtotal-sum{
+
+    .subtotal-sum {
         margin-left: 26px;
     }
 }
@@ -1400,11 +1427,12 @@ margin-bottom: 0;
     text-transform: uppercase;
     text-align: right;
     transform: translate(-3px);
-    .grant-total-sum{
-        
-            margin-left: 26px;
-            color: #F16D7F;   
-        
+
+    .grant-total-sum {
+
+        margin-left: 26px;
+        color: #F16D7F;
+
     }
 }
 
@@ -1429,4 +1457,176 @@ margin-bottom: 0;
     line-height: 19px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+/*==================registration==================*/
+.registration-main {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    display: flex;
+}
+
+.registration {
+    text-transform: uppercase;
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+
+    .your-name,
+    .login-details {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        text-transform: capitalize;
+    }
+
+    .text-field-registration {
+        border: 1px solid #A4A4A4;
+        width: 358px;
+        height: 44px;
+        box-sizing: border-box;
+        padding-left: 16.73px;
+        padding-right: 16.73px;
+        margin-top: 20px;
+    }
+
+    .choose-gender {
+        display: flex;
+        align-items: center;
+
+        label {
+            display: flex;
+        }
+
+        margin-top: 33.5px;
+        margin-bottom: 35px;
+    }
+
+    .inscription-gender {
+        display: inline-flex;
+        align-items: center;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-right: 20px;
+    }
+
+    #male,
+    #female {
+        display: none;
+    }
+
+}
+
+.inscription-gender::before {
+    content: "";
+    display: block;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#male:checked~.inscription-gender-male::before,
+#female:checked~.inscription-gender-female::before {
+    content: "";
+    background-image: url(img/black-hole.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-color: #F16D7F;
+}
+
+.text-field-registration::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    text-transform: capitalize
+}
+
+.password-filling-hint {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    max-width: 359px;
+    margin-top: 15.5px;
+}
+#join-now{
+   display:none
+}
+.label-for-join-now{
+    background: #F16D7F;
+    width: 167px;
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-top: 55px;
+svg{fill:white}
+border: 1px solid #F16D7F;
+}
+.label-for-join-now:hover{
+background: white;
+color:#F16D7F;
+}
+.label-for-join-now:active{
+transform: scale(0.9);
+}
+.label-for-join-now:hover svg{
+    fill:#F16D7F
+}
+.loyalty-perks-section {
+    margin-left: 128px;
+}
+
+.loyalty-perks-title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.loyalty-perks-description {
+    max-width: 652px;
+    margin-top: 22px;
+    margin-bottom: 21px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loyalty-perks-list {
+    list-style: url(img/Vector-checkmark.svg);
+    margin-left: 23.28px;
+
+}
+
+.loyalty-perks-item {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+    padding-left: 23.28px;
+    box-sizing: border-box;
+
 }
