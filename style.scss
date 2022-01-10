@@ -403,10 +403,15 @@ body {
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-between;
+li{
+    max-width: 360px/1140px*100%;
+    
+}
     .goods-item {
         margin-bottom: 30px;
         background: #F8F8F8;
+
        
         .goods-item-description {
             margin-left: 17px;
@@ -1631,4 +1636,10 @@ transform: scale(0.9);
     padding-left: 23.28px;
     box-sizing: border-box;
 
+}
+@media (max-width:768px) and (min-width:376px){
+    .container{
+        max-width: 768px;
+    }
+    
 }
