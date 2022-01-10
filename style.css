@@ -10,7 +10,9 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1124px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .headbar {
@@ -445,9 +447,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .goods-list .goods-item {
@@ -494,6 +493,10 @@ body {
 .goods-list .goods-item .goods-img {
   height: 420px;
   position: relative;
+}
+
+.goods-list .goods-item .goods-img img {
+  width: 100%;
 }
 
 .goods-list .goods-item .goods-image-hover {

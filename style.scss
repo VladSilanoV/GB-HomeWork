@@ -13,7 +13,9 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: $cw;
+    max-width: $cw - 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .headbar {
@@ -401,12 +403,11 @@ body {
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 
     .goods-item {
         margin-bottom: 30px;
         background: #F8F8F8;
-
+       
         .goods-item-description {
             margin-left: 17px;
             margin-right: 17px;
@@ -447,6 +448,7 @@ body {
         .goods-img {
             height: 420px;
             position: relative;
+            img{width: 100%;}
         }
 
         .goods-image-hover {
