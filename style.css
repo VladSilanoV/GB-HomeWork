@@ -341,6 +341,10 @@ body {
   color: #F16D7F;
 }
 
+.site-poster-model {
+  margin-right: 63px;
+}
+
 .wrap-brand::before {
   content: "";
   position: absolute;
@@ -1889,6 +1893,12 @@ body {
 @media (max-width: 768px) and (min-width: 376px) {
   .container {
     max-width: 768px;
+  }
+  .site-poster {
+    padding-left: 94px;
+  }
+  .site-poster-model {
+    margin-right: 39px;
   }
 }
 /*# sourceMappingURL=style.css.map */

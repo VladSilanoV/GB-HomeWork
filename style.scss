@@ -303,7 +303,9 @@ body {
 
 
 }
-
+.site-poster-model{
+    margin-right: 63px;
+}
 .wrap-brand::before {
     content: "";
     position: absolute;
@@ -1641,5 +1643,11 @@ transform: scale(0.9);
     .container{
         max-width: 768px;
     }
-    
+    .site-poster{
+        padding-left: 94px;
+    }
+    .site-poster-model{
+       
+        margin-right: 39px;
+    }
 }
