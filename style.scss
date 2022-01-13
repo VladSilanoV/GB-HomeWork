@@ -1640,6 +1640,9 @@ transform: scale(0.9);
 
 }
 @media (max-width:768px) and (min-width:376px){
+   .site-poster-background, .site-poster{
+       height: 367px;
+   }
     .container{
         max-width: 768px;
     }
@@ -1647,7 +1650,10 @@ transform: scale(0.9);
         padding-left: 94px;
     }
     .site-poster-model{
-       
+       height: 367px - 15px;
         margin-right: 39px;
+    }
+    .site-poster-background .site-poster .tagline{
+        margin-top: 138px;
     }
 }
