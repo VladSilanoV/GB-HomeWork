@@ -343,6 +343,7 @@ body {
 
 .site-poster-model {
   margin-right: 63px;
+  max-height: 749px;
 }
 
 .wrap-brand::before {
@@ -502,7 +503,7 @@ body {
 }
 
 .goods-list .goods-item .goods-img {
-  height: 420px;
+  height: 100%;
   position: relative;
 }
 
@@ -1891,7 +1892,8 @@ body {
 }
 
 @media (max-width: 768px) and (min-width: 376px) {
-  .site-poster-background, .site-poster {
+  .site-poster-background,
+  .site-poster {
     height: 367px;
   }
   .container {
@@ -1901,11 +1903,23 @@ body {
     padding-left: 94px;
   }
   .site-poster-model {
-    height: 352px;
-    margin-right: 39px;
+    max-height: 352px;
   }
   .site-poster-background .site-poster .tagline {
-    margin-top: 138px;
+    margin: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: -15px;
+  }
+  .site-poster-background .site-poster .tagline .brand {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .site-poster-background .site-poster .tagline .luxerious {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
   }
 }
 /*# sourceMappingURL=style.css.map */
