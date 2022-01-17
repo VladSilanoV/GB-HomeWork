@@ -132,7 +132,7 @@ body {
                 }
 
                 .find-form-input:focus {
-                    width: 150px;
+                    max-width: 150px;
                     min-height: 20px;
                     transition: width 1s ease;
                     border: 2px solid white;
@@ -330,7 +330,7 @@ body {
         display: flex;
         width: 360px/1140px*100%;
         min-height: 260px;
-        margin-bottom: 30px;
+        margin-bottom: 30px;background-position: center;
     }
 
     .women {
@@ -379,6 +379,7 @@ body {
     background-image: url(img/accesories.jpg);
     width: 100%;
     min-height: 180px;
+    background-position: center;
     display: flex;
 }
 
@@ -515,7 +516,10 @@ body {
 
 
 }
-
+.center-button-brows{
+    display: flex;
+    justify-content: center;
+}
 .brows {
     text-transform: capitalize;
     border: 1px solid #FF6A6A;
@@ -527,7 +531,6 @@ body {
     height: 47px;
     margin: 33px auto;
     background: 0;
-    margin-left: 50%-211px/1140px*100%/2;
 }
 
 .brows:hover {
@@ -1659,7 +1662,9 @@ body {
 }
 
 @media (max-width:768px) and (min-width:376px) {
-
+    .site-poster-background {
+        margin-bottom: 20px;
+    }
     .site-poster-background,
     .site-poster {
         height: 367px;
@@ -1677,7 +1682,16 @@ body {
         max-height: 367px - 15px;
 
     }
-
+    .clothes .section {
+       
+        margin-bottom: 20px;
+    }
+    .goods-header {
+        margin-top: 154px;
+    }
+    .goods-list {
+        margin-top: 73px;
+    }
     .site-poster-background .site-poster .tagline {
         margin: 0;
         align-self: center;
@@ -1694,4 +1708,123 @@ body {
             line-height: 29px;
         }
     }
+    .goods-list li{
+        max-width: 360px/736px*100%;
+    }
+   .background-service .service{
+       flex-direction: column;
+       align-content: center;
+       justify-content: center;
+       padding-bottom: 140px;
+      
+   }
+   .background-service .service .service-info{
+       align-items: center;
+   }
+   .subscribe{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 48px;
+       .subscribe-p{
+           margin-bottom: 27px;
+       }
+   }
+   .section-advantages {
+    margin-top: 45px;
+    padding-top: 48px;
+    padding-bottom: 16px;    
+}
+.brows {
+    margin: 17px auto;
+}
+.advantages {
+    flex-direction: column;
+}
+.advantages .advantage-description {
+    margin-bottom: 48px;
+}
+}
+@media (max-width:376px){
+.profile, .basket{
+    display: none;
+}
+.site-poster-background {
+    min-height: 375px;
+}
+.site-poster-background .site-poster{
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+.site-poster-model {
+    display: none;
+}
+.site-poster-background .site-poster .tagline{
+    margin-right: 0;
+}
+.wrap-brand{
+    margin: auto;
+}
+.site-poster-background .site-poster .tagline .brand {
+    font-size: 38px;
+    line-height: 46px;
+}
+.site-poster-background .site-poster .luxerious {
+    font-size: 20px;
+    line-height: 24px;
+}
+.site-poster-background .site-poster .tagline .brand{
+    text-align: center;
+}
+.wrap-brand::before {
+    content: "";
+    height: 70px;
+}
+.site-poster-background .site-poster .luxerious{text-align: center;}
+.clothes .section{
+    width: 100%;
+}
+.accessories {
+    min-height: 111px;
+}
+.goods-list li {
+    max-width: 100%;
+}
+.advantages .advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantages {
+
+    display: flex;
+   flex-direction: column;
+}
+.background-service .service {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+.goods-list .goods-item {
+    margin-bottom: 32px;
+}
+.goods-list {
+    margin-top: 65px;
+}
+.brows {
+    margin: 9px auto;
+}
+.section-advantages {
+    margin-top: 86px;
+    padding-top: 48px;
+}
+.background-service .service {
+    padding-bottom: 109px;
+}
+.footer-copyright-socials {
+    flex-direction: column-reverse;
+    padding-top: 43px;
+    padding-bottom: 9px;
+}
 }
