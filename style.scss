@@ -1746,6 +1746,24 @@ body {
 .advantages .advantage-description {
     margin-bottom: 48px;
 }
+/*-----------каталог---------*/
+.filter-trending-size-price {
+    padding-top: 8px;
+}
+.goods-list {
+    margin-top: 40px;
+    
+}
+.goods-list .goods-item {
+    margin-bottom: 16px;
+}
+.hidden-item{
+    display: none;
+}
+.pagination {
+    margin-top: 40px;
+    margin-bottom: 63px;
+}
 }
 @media (max-width:376px){
 .profile, .basket{

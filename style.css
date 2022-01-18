@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
@@ -1996,6 +1997,23 @@ body {
   }
   .advantages .advantage-description {
     margin-bottom: 48px;
+  }
+  /*-----------каталог---------*/
+  .filter-trending-size-price {
+    padding-top: 8px;
+  }
+  .goods-list {
+    margin-top: 40px;
+  }
+  .goods-list .goods-item {
+    margin-bottom: 16px;
+  }
+  .hidden-item {
+    display: none;
+  }
+  .pagination {
+    margin-top: 40px;
+    margin-bottom: 63px;
   }
 }
 
