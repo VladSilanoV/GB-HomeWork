@@ -2038,6 +2038,18 @@ body {
     font-size: 16px;
     line-height: 19px;
   }
+  .registration-main {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /*---------cart---------*/
 }
 
 @media (max-width: 376px) {
@@ -2243,6 +2255,9 @@ body {
   .trending-size-price .price-filter {
     margin-right: 0;
   }
+  .women-collection .women-collection-price {
+    margin-bottom: 0;
+  }
   /*---------registration---------*/
   .loyalty-perks-section {
     margin-left: 22px;
@@ -2250,6 +2265,39 @@ body {
   .loyalty-perks-title {
     font-size: 16px;
     line-height: 19px;
+  }
+  .registration-main {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 8px;
+    padding-right: 9px;
+  }
+  .label-for-join-now {
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+  .loyalty-perks-title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .loyalty-perks-description {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+  }
+  .loyalty-perks-item {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .loyalty-perks-section {
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
