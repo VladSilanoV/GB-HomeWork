@@ -1281,18 +1281,24 @@ body {
         .delete-good-from-the-cart {
             background: none;
             border: none;
-            padding-top: 28px;
-            width: 18px;
-            height: 18px;
+            padding-top: 5px;
+            width: 22px;
+            height: 22px;
         }
+       
     }
-
-    .good-characteristics {
-        box-sizing: border-box;
-        padding-bottom: 16px;
+    .img-goods-in-the-cart{
+        max-width: 262px;
+    }
+    .delete-good-from-the-cart-good-characteristics{
         padding-top: 22px;
+        width: 734px;
+    }
+    .good-characteristics {
+        
+        padding-bottom: 16px;
         padding-left: 31px;
-        padding-right: 31px;
+        max-width: 195px;
 
         .title-of-the-good-in-the-cart {
             margin-bottom: 42px;
@@ -1429,6 +1435,7 @@ body {
     padding-right: 43px;
     max-width: 360px;
     background: #F5F3F3;
+    box-sizing: border-box;
 }
 
 .subtotal {
@@ -1664,7 +1671,17 @@ body {
     box-sizing: border-box;
 
 }
-
+.delete-good-from-the-cart-good-characteristics{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (max-width:1028px){
+    .cart-main {
+           flex-direction: column;
+       align-items: center;
+       }
+}
 @media (max-width:768px) and (min-width:376px) {
     .site-poster-background {
         margin-bottom: 20px;
@@ -1794,9 +1811,57 @@ line-height: 19px;
     flex-direction: column;
 }
 /*---------cart---------*/
+.cart-main {
+ padding-top: 59px;
+    flex-direction: column;
 
 }
-
+.cart-main .goods-in-the-cart {
+    max-width: 734px;
+}
+.cart-main .good-in-the-cart {
+    max-width: 100%;
+    padding-right: 24px
+}
+.clear-shopping-cards-continnue-shopping{
+    justify-content: center;
+}
+.clear-shopping-cards {
+    margin-right: 46px;
+}
+.shipping-adress-checkout{
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.shipping-adress{
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.cart-main .delete-good-from-the-cart-good-characteristics {
+    padding-top: 22px;
+    width: 100%;
+}
+.cart-main .goods-in-the-cart {
+    width: 100%;
+}
+.checkout {
+    box-sizing: border-box;
+    margin-top: 39px;
+}
+}
+@media (max-width:750px){
+    .shipping-adress-checkout {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:522px){
+    .profile, .basket{
+        display: none;
+    }
+}
 @media (max-width:376px){
 .site-poster-background{
     min-height: 363px;
@@ -1993,5 +2058,76 @@ line-height: 19px;
 }
 .loyalty-perks-section{
     margin-left: 0;
+}
+/*---------cart---------*/
+.cart-main{
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 0;
+    margin-top: 39px;
+    padding-bottom: 96px;
+}
+.head-bread-crambs .head-bread-crambs-container .new-arrivals {
+    text-transform: uppercase;
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin: auto;
+    line-height: 29px;
+}
+.cart-main .img-goods-in-the-cart {
+    max-width: 144px;
+}
+.cart-main .delete-good-from-the-cart-good-characteristics {
+    width: 100%;
+}
+.cart-main .good-in-the-cart {
+   
+    margin-bottom: 32px;
+    
+}
+.cart-main .good-characteristics .title-of-the-good-in-the-cart{
+font-size: 16px;
+line-height: 19px;
+}
+.cart-main .good-characteristics .title-of-the-good-in-the-cart{
+    font-size: 14px;
+line-height: 17px;
+max-width: 122px;
+margin-bottom: 26px;
+}
+.cart-main .good-characteristics p{
+    font-size: 14px;
+    line-height: 17px;
+}
+.clear-shopping-cards, .continnue-shopping {
+    height: 33px;
+    width: 175px;
+    font-size: 12px;
+ line-height: 14px;
+ text-transform: none;
+
+}
+.clear-shopping-cards{
+    margin-right: 9px;
+}
+.delete-good-from-the-cart-svg{
+    height: 10px;
+    width: 11px;
+}
+.cart-main .good-in-the-cart .delete-good-from-the-cart {
+    width: 10px;
+    height: 11px;
+    padding-top: 0;
+}
+.shipping-adress .get-a-quote{
+    text-transform: none;
+}
+.shipping-adress-checkout{
+    margin-top: 48px;
+    
+}
+.shipping-adress{
+    margin-bottom: 48px;
 }
 }
